@@ -1,0 +1,32 @@
+Keyboard short-cuts
+
+ctrl + / --> comment
+Shift+alt+uparrow --> copy the values in a line
+alt + up/down arrow --> move the line
+! + enter/tab --> default layout
+ctrl + enter --> new line
+shift + tab --> move tab to the left
+select a word | ctrl + D --> to select all the duplicate data.
+
+VS code short-cuts
+
+#contact --> <div id"contact">
+div#about --> <div id="about"></div>
+p#para --> <p id="para"></p>
+&copy; --> it pulls the copyright symbol | ©
+&nbsp; --> it put a white space in a line
+&gt; / &#62; --> greater than symbol | >
+&lt; / &#60; --> lesser than symbol | <
+
+&cent; --> ¢
+&pound; --> £ 
+&yen; --> ¥
+&euro; --> €
+
+&spades; --> ♠
+&diams; --> ♦
+&clubs; --> ♣
+&hearts; --> ♥
+
+
+
