@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, span, id and class</title>
+  <style>
+    .card
+    {
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .enhance
+    {
+      color: yellow;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+  <!-- do not repest id, it should be unique -->
+  <div id="main-header">
+    <h1>My website</h1>
+    <p>A site about me</p>
+  </div>
+  
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <div id="about" class="card">
+    <h3>About</h3>
+    <!-- span is an inline element which is used to specify the style -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+      elit. Mollitia, est quo. <span class = "enhance">Nobis 
+      arum dolore amet</span> eveniet recusandae ex, vitae nemo velit ut consectetur aspernatur, 
+      sunt neque eum deleniti adipisci nostrum molestias itaque
+      sit, laboriosam quaerat. Aliquid corporis ex ratione nulla!</p>
+  </div>
+
+ <div id="contact" class="card">
+   <h3>Contact Me</h3>
+   <ul>
+     <li>Address: 59/6 Nehru street, Chennai</li>
+     <li>Phone: (555) 555-555</li>
+     <li>Email:santhosh234@cool.com</li>
+   </ul>
+ </div> 
+
+ <div id="footer">
+   <!--  -->
+  <p>Copyright &copy; 2021</p>
+ </div>
+</body>
+</html>
